@@ -1,0 +1,129 @@
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.settings-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-section h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.settings-section p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.input-group button {
+  padding: 10px 15px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-group button:hover {
+  background-color: #1565c0;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e8f0fe;
+  padding: 6px 10px;
+  border-radius: 16px;
+  font-size: 0.9em;
+}
+
+.tag button {
+  background: none;
+  border: none;
+  color: #555;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.tag button:hover {
+  color: #d32f2f;
+}
+
+.setting-item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.setting-item label {
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.setting-item input[type="range"] {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.setting-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.settings-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.save-button {
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-button:hover {
+  background-color: #2e7d32;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 1.2em;
+}

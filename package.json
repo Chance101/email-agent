@@ -1,0 +1,26 @@
+{
+  "name": "email-agent",
+  "version": "1.0.0",
+  "description": "Intelligent email agent for Gmail",
+  "main": "backend/app.py",
+  "scripts": {
+    "start-backend": "python3 backend/app.py",
+    "start-frontend": "cd frontend && npm start",
+    "build-frontend": "cd frontend && npm run build",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "pip install -r requirements.txt && npm run install-frontend",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "keywords": [
+    "email",
+    "gmail",
+    "agent",
+    "intelligence",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
