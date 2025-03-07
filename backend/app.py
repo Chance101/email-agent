@@ -1,7 +1,11 @@
 from flask import Flask, render_template
 from flask_cors import CORS
-from api.routes import api
+from backend.api.routes import api
 import os
+import sys
+
+# Add the parent directory to sys.path
+sys.path.append('/Users/chasehitchens/App_Builds/email-agent')
 
 def create_app():
     app = Flask(__name__, 

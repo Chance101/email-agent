@@ -2,7 +2,7 @@ import base64
 import email
 from email.mime.text import MIMEText
 from googleapiclient.discovery import build
-from ..auth.gmail_auth import get_gmail_credentials
+from backend.auth.gmail_auth import get_gmail_credentials
 
 class GmailService:
     def __init__(self):

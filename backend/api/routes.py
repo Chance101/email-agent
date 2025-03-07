@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from ..services.gmail_service import GmailService
-from ..services.email_classifier import EmailClassifier
+from backend.services.gmail_service import GmailService
+from backend.services.email_classifier import EmailClassifier
 import json
 import os
 from pathlib import Path
