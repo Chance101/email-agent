@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask_cors import CORS
-from backend.api.routes import api
+from api.routes import api
 import os
 
 def create_app():
